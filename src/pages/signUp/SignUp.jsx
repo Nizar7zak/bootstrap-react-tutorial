@@ -13,9 +13,9 @@ const SignUp = () => {
       validationSchema={signupValidation}
       onSubmit={handleSubmit}
     >
-      <FormField type="text" label="First Name" name="firstName" />
-      <FormField type="text" label="Last Name" name="lastName" />
-      <FormField type="email" label="email" name="email" />
+      <FormField type="text" placeholder="First Name" name="firstName" />
+      <FormField type="text" placeholder="Last Name" name="lastName" />
+      <FormField type="email" placeholder="email" name="email" />
       <SubmitButton title="Console" />
     </Form>
   );
